@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0a001a, #1a0033, #000);
+    color: #444;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2% 0;
+    line-height: 1.5;
+}
+
+main {
+    background: rgba(255, 255, 255, 0.97);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+h1, h2 {
+    color: rgb(140, 76, 8);
+    margin-bottom: 10px;
+}
+
+section {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: solid 1px #ccc;
+}
+
+.foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #8b5cf6;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.imagem:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #8b5cf6;
+}
+
+.nome {
+    background: #8b5cf6;
+    color: #000;
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Perfil {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+ol {
+    margin: 15px 0;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+.experienciaprofissional ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #8b5cf6;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+a:hover {
+    color: black;
+    text-shadow: 0 0 5px #8b5cf6;
+}
+
+.contato p {
+    margin: 10px 0;
+}
+
+.telefone::before {
+    content: "📞 ";
+    font-size: 20px;
+}
+
+.email::before {
+    content: "📧 ";
+    font-size: 20px;
+}
+
+.endereco::before {
+    content: "📍 ";
+    font-size: 20px;
+}
+
+.imagem1 {
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    border: 3px solid #8b5cf6;
+    object-fit: cover;
+}
+
+.destaque {
+    background: rgba(139, 92, 246, 0.1);
+    border-left: 5px solid #8b5cf6;
+    padding: 15px;
+    border-radius: 10px;
+}
